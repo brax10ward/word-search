@@ -1,0 +1,28 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Word Search",
+      "program": "${workspaceFolder}/index.js",
+      "args": [
+        "${workspaceFolder}/sample/grid.txt",
+        "${workspaceFolder}/sample/words.txt"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Word Search 2",
+      "program": "${workspaceFolder}/index.js",
+      "args": [
+        "${workspaceFolder}/sample/grid2.txt",
+        "${workspaceFolder}/sample/words2.txt"
+      ]
+    }
+  ]
+}
