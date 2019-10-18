@@ -219,3 +219,9 @@ class WordSearch {
 module.exports = function search(grid, wordList) {
   return wordList.filter(word => new WordSearch(grid, word).search());
 };
+
+// write a generic search
+// track where you've searched (optimization)
+// track where the letter was found
+
+// change the shap
